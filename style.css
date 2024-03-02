@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+ 
+:root{
+    --logo-colour: rgba(7, 227, 14, 0.913) ;
+    --color-text:rgb(255, 255, 255);
+    /* --logo-colour: rgba(255, 81, 0, 0.913) ; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    color:var(--color-text);
+
+}
+.wfull{
+    height: 100vh;
+    width: 100%;
+    background-color: #0c0909;
+    overflow-x: hidden;
+    padding-top: 60px;
+
+  
+}
+
+.bframe .box-frame{
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(42, 175, 175);
+    margin: 10px;
+
+}
+#right li {
+    width: 150px;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+    width: 250px;
+    color:var(--logo-colour);
+}
+.navbar{
+    box-shadow: 3px 3px 5px 0px rgb(238, 238, 238);
+    width: 100%;
+    background-color: #0c0909c9;
+
+}
+#right li a{
+    color:var(--color-text);
+    font-size: 20px;
+    text-align: center;
+}
+
+#right li a:hover, .navbar-brand:hover{
+    background-color: transparent;
+    color: var(--logo-colour);
+}
+#right .link.active{
+    background-color: red;
+  
+}
+#right .link.active a{
+    text-decoration: underline;
+   text-underline-offset:8px ;
+   text-decoration-color: var(--logo-colour);
+   text-decoration-thickness:3px ;
+  
+}
+
+.icon-bar{
+    background-color: white;
+}
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+#home .holeft , .horight{
+    padding-top: 100px;
+}
+.holeft{
+    
+    height:600px;
+    /* height:calc(100vh - 60px); */
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+
+    
+}
+.holeft h3 {
+    font-size: 30px;
+   
+}
+.holeft h3 span{
+    color: var(--logo-colour);
+}
+.holeft h1 {
+    font-size: 50px;
+   
+}
+.holeft p{
+    font-size: 20px;
+}
+.holeft .btn{
+    background-color: var(--logo-colour);
+    width: 200px;
+    font-size: 25px;
+    /* border: 2px solid red; */
+    outline: none;
+    
+
+}
+.holeft .btn a{
+    color: white;
+    text-decoration: none;
+}
+.horight .box {
+    /* background-color: aqua; */
+    width:400px;
+    height: 450px;
+    overflow: hidden;
+}
+.horight .box .mypic{
+    background: url(/mypic.png);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+  
+}
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+#about .ableft , .abright{
+    padding-top: 100px;
+    
+}
+.abright .skill{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.ableft{
+    padding-left: 20px;
+}
+.pic{
+    height:200px;
+    width: 200px;
+    /* background-color: aqua; */
+    border-radius: 50%;
+ 
+}
+.pic .ropic{
+    height: 100%;
+    width: 100%;
+    background: url(/mypic.png);
+    background-size: cover;
+}
+
+
+/* $$$$$$$$$$$$$$$$$$$-project-$$$$$$$$$$$$$$$$$$$$$$$ */
+#project .row .text{
+    font-size: 90px;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding-top: 90px;
+   user-select: none;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* .coright .form{
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px 0px var(--logo-colour);
+    border:5px solid rgb(41, 71, 41);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+} */
+.coright .form-group input::placeholder {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+}
+.coright {
+    padding-top: 60px;
+}
+#msg{
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+.coleft .contframe h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.coleft .group{
+    font-size: 20px;
+    margin-top: 10px;
+    overflow-y: hidden;
+
+   
+}
+/* .coleft{
+    box-shadow: 5px 5px 5px 0px var(--logo-colour);
+    border:5px solid rgb(41, 71, 41);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;    
+} */
